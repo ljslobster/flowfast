@@ -1,34 +1,3 @@
-//use relm4::prelude::*;
-//
-//#[derive(Debug, Default)]
-//pub struct HeaderModel;
-//
-//#[relm4::component(pub)]
-//impl SimpleComponent for HeaderModel {
-//    type Init = ();
-//    type Input = ();
-//    type Output = ();
-//
-//    view! {
-//        #[root]
-//        adw::HeaderBar {
-//            set_title_widget: Some(&adw::WindowTitle::new("FlowFast", "The fastest flowmodoro")),
-//        }
-//    }
-//
-//    fn init(
-//        _init: Self::Init,
-//        root: Self::Root,
-//        _sender: ComponentSender<Self>,
-//    ) -> ComponentParts<Self> {
-//        let model = HeaderModel::default();
-//
-//        let widgets = view_output!();
-//
-//        ComponentParts { model, widgets }
-//    }
-//}
-//
 use adw::prelude::*;
 use relm4::*;
 
