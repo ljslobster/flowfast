@@ -1,0 +1,9 @@
+[package]
+name = "flowfast"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+relm4 = { version = "0.9.1", features = ["libadwaita"] }
+relm4-components = "0.9.1"
+tracker = "0.2.2"
